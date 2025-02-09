@@ -29,7 +29,7 @@ header{
 }
 .header_logo::before{
     content: '';
-    background-image: url(/img/icon.png);
+    background-image: url(img/icon.png);
     background-size: 28px 28px;
     display: inline-block;
     height: 28px;
