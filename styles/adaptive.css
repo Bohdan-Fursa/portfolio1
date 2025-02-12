@@ -1,0 +1,207 @@
+@media (max-width: 376px) {
+    header{
+        padding: 0;
+    }
+    .menu{display: none;}
+    .social_header{ display: none;}
+    .header_help{
+        gap: 35px;
+    }
+    .header_logo{
+        align-items: center;
+        padding-left: 11px;
+        gap: 4px;
+        font-size: 18px;
+    }
+    .header_logo::before{
+        background-size: 25px 25px;
+        width: 25px;
+        height: 25px;
+    }
+    .header_change_language{
+        display: inline;
+    }
+    .account_avatar{
+        display: none;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.9);
+        text-align: center;
+        padding: 10px 0;
+        opacity: 0;
+        transform: translateY(-20px);
+        transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+        pointer-events: none; /* Щоб не взаємодіяти, коли приховано */
+    }
+
+    .menu.active {
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
+    }
+
+    .menu li {
+        list-style: none;
+        padding: 5px;
+    }
+
+    .menu a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        display: block;
+        transition: transform 0.2s ease-in-out;
+    }
+
+    .menu a:hover {
+        transform: scale(1.1);
+    }
+
+    /* Бургер-іконка */
+    .burger_menu {
+        cursor: pointer;
+        display: block;
+        position: relative;
+        margin-right: 10px;
+        /* img{
+            margin-right: 10px;
+        } */
+    }
+    .hero_background{
+        display: none;
+    }
+    .background_for_mobile{
+        display: block;
+    }
+    h1{
+        font-size: 49px;
+    }
+    .hero_text{
+        padding-top: 16vh;
+        padding-left: 5px;
+    }
+    .hero_p{
+        font-size: 49px;
+    }
+    .hero_p2{
+        font-size: 20px;
+    }
+    .hero_button{
+        width: 92%;
+        padding: 25px 40px;;
+        margin-top: 362px;
+        margin-bottom: 36px;
+    }
+    .hero_section{
+        height: 108vh;
+    }
+    .section_features{
+        padding-top: 0;
+    }
+    .section_features_icon{
+        position: relative;
+        margin-left: 11%;
+    }
+    .features_text{
+        position: unset;
+        padding-left: 5px;
+        span{
+            font-size: 21px;
+        }
+    }
+    .arrow_down{
+        padding: 20px 27px;
+    }
+    .features_boards{
+        flex-direction: column;
+        padding-top: 50px;
+        img{
+            width: 100%;
+        }
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .content span{
+        font-size: 37px;
+    }
+    .content p{
+        font-size: 13px;
+    }
+    .gray_line div{
+        width: 100%;
+        margin-top: 30px;
+    }
+    h2{
+        padding-left: 3vw;
+        font-size: 55px;
+    }
+    .airdrop-grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    h4{
+        bottom: 44vh;
+        font-size: 50px;
+    }
+    .staywithus_wrapper{
+        flex-direction: column;
+        gap: 16px;
+        width: 90%;
+        padding: 35px 3px;
+        bottom: 15vh;
+    }
+    .staywithus_wrapper a{
+        padding: 21px 24px;
+        margin-left: 0;
+    }
+    .staywithus_wrapper a img{
+        padding-left: 107px;
+    }
+    .staywithus_wrapper input{
+        width: auto;
+        padding: 20px 24px;
+    }
+    .background_right .block2{
+        bottom: 19vh;
+    }
+    .block2{
+        width: 120px;
+    }
+    .background_left{
+        width: 70vw;
+    }
+    .background_left div{
+        filter: blur(150px);
+        bottom: 47vh;
+    }
+    .background_left img{
+        display: none;
+    }
+    .background_effect{
+        display: none;
+    }
+    .footer_blocks{
+        flex-direction: column;
+        align-items: center;
+        gap: 33px;
+    }
+    .footer_miniblocks{
+        flex-direction: column;
+        gap: 24px;
+    }
+    .Dev2025{
+        display: none;
+    }
+    .footer_text{
+        gap: 102px;
+    }
+}
