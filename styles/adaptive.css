@@ -167,7 +167,8 @@
         padding-left: 107px;
     }
     .staywithus_wrapper input{
-        width: auto;
+        width: 85%;
+        box-sizing: border-box;
         padding: 20px 24px;
     }
     .background_right .block2{
