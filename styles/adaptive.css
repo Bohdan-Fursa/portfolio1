@@ -148,6 +148,10 @@
     .airdrop-grid{
         grid-template-columns: repeat(1, 1fr);
     }
+    .airdrop{
+        width: 96%;
+        margin: 0 auto;
+    }
     h4{
         bottom: 44vh;
         font-size: 50px;
